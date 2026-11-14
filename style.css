@@ -93,7 +93,7 @@ main {
 }
 
 .fa-arrow-up {
-    display: inline-block;
+    /* display: inline-block; */
     animation: Arrowup  0.70s linear  0s infinite alternate;
 }
 
@@ -106,7 +106,7 @@ main {
         transform: translate(4px, -3px);
     }
 }
-                                                 /* Section 1 */
+ /* ////////////////////////////////////////       Section 1   ////////////////////////////////////////////  */
 
 .section1-main-div {
     margin: 0px auto;
@@ -183,28 +183,25 @@ main {
 
 .content-div-Section1 h1 {
     margin: 40px 0px 0px;
-    font-size: 80px;
-    font-weight: bold;
-    font-family: 'Arial Narrow', Arial, sans-serif;
-    letter-spacing: 4px;
+    font-size: 70px;
+    font-weight: 600;
+    font-family: Montserrat, "Montserrat Fallback";
 }
 
 .content-div-Section1 span {
-    font-family: 'Arial Narrow', Arial, sans-serif;
-    font-weight: bold;
-    font-size: 78px;
+    font-family: Montserrat, Montserrat, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    font-size: 70px;
+    font-weight: 600;
     color: #2076EE;
 }
 
 .content-div-Section1 p {
-    width: 450px;
+    width: 465px;
     line-height: 30px;
-    letter-spacing: 2px;
     font-size: 20px;
     margin: 8px auto 0px;
     color: #686868;
-    opacity: 0.85;
-    font-family:  'Arial Narrow', Arial, sans-serif;
+    font-family: Montserrat, "Montserrat Fallback";
 }
 
 .content-sylani-div {
@@ -228,7 +225,7 @@ main {
     /* border: 1px solid black; */
     margin: 16px auto 0px;
     display: flex;
-    width: 32%;
+    width: 36%;
     justify-content: space-between;
 }
 
@@ -237,7 +234,7 @@ main {
     background: #2076EE;
     color: white;
     cursor: pointer;
-
+    font-family: Montserrat, "Montserrat Fallback";
 }
 
 .section1-btn1:hover {
@@ -252,6 +249,7 @@ main {
     gap: 20px;
     color: lab(35.6337% -1.58697 -10.8425);
     cursor: pointer;
+    font-family: Montserrat, "Montserrat Fallback";
 
 }
 
@@ -402,6 +400,7 @@ main {
     width: 1080px;
     height: 700px;
     position: relative;
+    padding-bottom: 20px;
     /* border: 2px solid black; */
 }
 
@@ -592,7 +591,62 @@ main {
     width: 1080px;
     height: 538.6px;
     position: relative;
-    border: 2px solid black;
+    /* border: 2px solid black; */
+}
+
+.content-div-section5 {
+    margin: 0px 0px 32px;
+}
+
+.content-div-section5 h2 {
+    text-align: center;
+    font-size: 36px;
+    margin: 0px 0px 16px;
+    font-family: Montserrat, "Montserrat Fallback";
+}
+
+.content-div-section5 h2 span {
+    font-size: 36px;
+    color: #2076EE;
+    margin: 0px 0px 16px;
+    font-family: Montserrat, "Montserrat Fallback";
+}
+
+.div-ul-S5 {
+    /* border: 1px solid purple; */
+    padding: 6px;
+    width: 960px;
+
+    margin: 0px auto;
+}
+
+.content-div-section5 ul {
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+
+ul li {
+    padding: 12px 24px;
+    opacity: 0.9;
+    font-family: Montserrat, "Montserrat Fallback";
+
+}
+
+ul li:hover {
+         
+        background-color:lab(91.6229% -.159115 -2.26791);
+        border-radius: 10px;
+        transition: all 0.2s ease-in 0s;
+    }
+
+#Li-1-S5 {
+    background-color: #2076EE;
+    opacity: 1;
+    color: white;
+    border-radius: 10px;
 }
 
 .img-div-section5 {
@@ -605,11 +659,20 @@ main {
     height: 100%;
 }
 
+.cards-div-section5 {
+    /* border: 3px solid black; */
+    display: flex;
+    padding: 12px;
+    width: 1040px;
+    justify-content: space-between;
+}
+
 .left-card {
     width: 335px;
-    height: 342.6px;
     border: 1px solid rgb(229, 231, 235);
     border-radius: 10px;
+    position: relative;
+    overflow: hidden;
 }
 
 .inner-left-main-div {
@@ -617,17 +680,445 @@ main {
 }
 
 .span1 {
+    padding: 4px 8px;
     background-color: #2076EE;
     color: white;
-    padding: 4px 8px;
-    /* font-size: 10px; */
-    border-radius: 50px;
-    /* font-family: Montserrat, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; */
+    border-radius: 20px 0px 0px 20px;
+    font-size: 13px;
+    font-weight: 500;
 } 
 
+.span2 {
+    padding: 4px 8px;
+    background-color: #8EC745;
+    color: white;
+    border-radius: 0px 20px 20px 0px;
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.span-btns-S5 {
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    
+}
+
+.upper-small-left-div {
+    padding: 0px 0px 20px;
+}
+
+.upper-small-left-div h3 {
+    font-size: 14px;
+    margin: 0px 0px 12px;
+    font-family: Montserrat, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    font-weight: 600;
+}
+
+.upper-small-left-div p {
+    font-size: 12px;
+    /* margin: 0px 0px 8px; */
+    font-family: Montserrat, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    font-weight: 300;
+}
+
+.lower-small-left-div {
+    margin: 16px 0px 0px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.lower-small-left-div button {
+    background-color: #2076EE;
+    color: white;
+    border: none;
+    padding: 8px 20px;
+    border-radius: 50px;
+    font-family: Montserrat, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    font-weight: 500;
+}
+
+.lower-small-left-div .p1 {
+    text-align: end;
+    font-size: 12px;
+    /* width: 60px; */
+    font-family: Montserrat, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    color: lab(47.7841% -.393182 -10.0268);
+}
+
+.lower-small-left-div .p2 {
+    text-align: end;
+    font-size: 12px;
+    font-weight: 700;
+    font-family: Montserrat, "Montserrat Fallback" ;
+}
+
+
+/* ////////////////////////////////////////////     Section 6     ////////////////////////////////////////////*/
+
+
+.main-div-Section6 {
+    margin: 0px auto;
+    padding: 32px 40px;
+    width: 1080px;
+    position: relative;
+    /* border: 2px solid black; */
+}
+
+.span-div-S6 span {
+    background-color: #2076EE;
+    font-size: 14px;
+    color: white;
+    font-weight: 600;
+    display: inline-block;
+    font-family: Montserrat, Montserrat, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    border-radius: 50px;
+    margin: 0px 0px 16px;
+    padding: 4px 16px;
+}
+
+.content-div-left {
+    padding: 0px 8px;
+    width: 350px;
+}
+
+.content-div-left h2 {
+    font-size: 30px;
+    font-family: Montserrat, Montserrat, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+
+}
+
+.btns-div-S6 {
+    margin: 24px 0px 0px;
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+}
+
+.btns-div-S6 button {
+    width: 45.6px;
+    height: 45.6px;
+    padding: 12px;
+    border-radius: 50%;
+    border: none;
+    border: 1px solid rgb(209, 213, 219);
+    background-color: transparent;
+}
+
+
+.main-flex-div {
+    /* border: 2px solid green; */
+    display: flex;
+    justify-content: space-between; 
+    overflow: hidden;
+}
+
+
+.left-div-section6 {
+    /* border: 1px solid black; */
+    margin: auto 0px;
+}
+
+
+.right-div-section6 {
+    /* border: 1px solid black; */
+    display: flex;
+    width: 60%;
+    padding: 0px 0px 16px 0px;
+    flex-direction: row;
+    gap: 25px;
+}
+
+.inner-right-div-1 {
+    width: 280px;
+    height: 320px;
+    border-radius: 15px;
+    overflow: hidden;
+    position: relative;
+    flex-shrink: 0;
+    background-image: url("./Images/muhammad_saad_left.webp");
+    background-size: cover;
+    background-position: center;
+    box-shadow: 0px -114px 26px -47px rgba(26,94,191,0.77) inset;
+-webkit-box-shadow: 0px -114px 26px -47px rgba(26,94,191,0.77) inset;
+-moz-box-shadow: 0px -114px 26px -47px rgba(26,94,191,0.77) inset;
+}
+
+.inner-right-div-2 {
+    width: 280px;
+    height: 320px;
+    border-radius: 15px;
+    overflow: hidden;
+    position: relative;
+    flex-shrink: 0;
+    background-image: url("./Images/muhammad_fasih_mid.webp");
+    background-size: cover;
+    background-position: center;
+    box-shadow: 0px -114px 26px -47px rgba(26,94,191,0.77) inset;
+-webkit-box-shadow: 0px -114px 26px -47px rgba(26,94,191,0.77) inset;
+-moz-box-shadow: 0px -114px 26px -47px rgba(26,94,191,0.77) inset;
+}
+
+.inner-right-div-3 {
+    width: 280px;
+    height: 320px;
+    border-radius: 15px;
+    overflow: hidden;
+    position: relative;
+    flex-shrink: 0;
+    background-image: url("./Images/kamran_right.webp");
+    background-size: cover;
+    background-position: center;
+    box-shadow: 0px -114px 26px -47px rgba(26,94,191,0.77) inset;
+-webkit-box-shadow: 0px -114px 26px -47px rgba(26,94,191,0.77) inset;
+-moz-box-shadow: 0px -114px 26px -47px rgba(26,94,191,0.77) inset;
+}
+
+.inner-span-1-2-3 {
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+    background-color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+}
+
+.fa-play-S6 {
+    color: rgb(26, 95, 194);
+    font-size: 30px;
+    border-radius: 70px;
+}
+
+
+/* ////////////////////////////////////////////     Section 7     ////////////////////////////////////////////*/
+
+
+.main-div-Section7 {
+    margin: 0px auto;
+    padding: 32px 40px;
+    width: 1080px;
+    /* border: 2px solid black; */
+    text-align: center;
+}
+
+.content-div-Section7 {
+    text-align: center;
+    margin: 0px 0px 32px;
+}
+
+
+.content-div-Section7 span {
+    background-color: #2076EE;
+    font-size: 14px;
+    color: white;
+    font-weight: 600;
+    display: inline-block;
+    font-family: Montserrat, Montserrat, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    border-radius: 50px;
+    margin: 0px 0px 8px;
+    padding: 6px 16px;
+}
+
+.content-div-Section7 h2 {
+    font-size: 36px;
+    font-family: Montserrat, "Montserrat Fallback" ;
+}
+
+.content-div-Section7 p {
+    font-size: 18px;
+    margin: 8px 152px 0px;
+    color: #4B5563;
+    font-family: Montserrat, Montserrat, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+}
+
+.btn-div-section7 {
+    margin: 40px 0px 0px;
+    display: flex;
+    justify-content: center;
+}
+
+.btn-div-section7 button {
+    border: none;
+    background: #2076EE;
+    color: white;
+    font-size: 14px;
+    font-weight: 500;
+    border-radius: 50px;
+    font-family: Montserrat, Montserrat, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    padding: 12px 20px;
+    display: flex;
+    gap: 6px;
+}
+
+.my-btn-S7 .fa-arrow-right {
+    transform: translate(0px, 2px);
+    opacity: 0.85;
+}
+
+.my-btn-S7:hover .fa-arrow-right {
+    transform: translate(5px, 2px);
+    transition: all 0.3s ease 0s;
+}
+
+
+/* ////////////////////////////////////////////     Section 8     ////////////////////////////////////////////*/
+
+.section8-main-div {
+    padding: 80px 0px;
+}
+
+.Section8-Allitems-main-div {
+    padding: 0px 40px;
+    margin: 0px auto;
+    width: 1080px;
+    /* border: 2px solid black; */
+    text-align: center;
+}
+
+.content-div-Section8 {
+    text-align: center;
+    margin: 0px 0px 48px;
+}
+
+.content-div-Section8 span {
+    background-color: #2076EE;
+    font-size: 14px;
+    color: white;
+    font-weight: 600;
+    display: inline-block;
+    font-family: Montserrat, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    border-radius: 50px;
+    margin: 0px 0px 16px;
+    padding: 6px 16px;
+}
+
+.content-div-Section8 h2 {
+    font-size: 36px;
+    margin: 8px 0px 0px;
+    font-family: Montserrat, "Montserrat Fallback" ;
+}
+
+.content-div-Section8 p {
+    width: 55%;
+    font-size: 16px;
+    margin: 12px auto 0px;
+    color: #686868;
+    line-height: 25px;
+    font-family: Montserrat, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+}
 
 
 
+.cards-div-section8 {
+    /* border: 3px solid black; */
+    display: flex;
+    padding: 12px;
+    width: 1040px;
+    justify-content: space-between;
+}
+
+.left-card {
+    width: 335px;
+    /* padding: 16px; */
+    border: 1px solid rgb(229, 231, 235);
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    text-align: left;
+}
+
+.img-div-section8 {
+    border-radius: 10px;
+    background-color: white;
+    padding: 16px;
+    width: 304px;
+    height: 304px;
+}
+
+.img-div-section8 img {
+    border-radius: 10px;
+    width: 100%;
+    height: 100%;
+}
+
+.Inner-main-div-S8 {
+    padding: 0px 20px 24px;
+    background-color: white;
+
+}
+
+.upper-main-div-S8 h3 {
+    font-size: 16px;
+    margin: 0px 0px 8px;
+    opacity: 0.90;
+    line-height: 22px;
+    font-family: Montserrat, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    font-weight: 600;
+}
+
+.upper-main-div-S8 p {
+    font-size: 14px;
+    line-height: 22px;
+    font-family: Montserrat, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    color: rgb(104, 104, 104);
+
+}
+
+.cards-div-section8 {
+    width: 1072px;
+}
+
+.upper-main-div-S8 a {
+    color: #2076EE;
+    margin: 0px 0px 0px 2px;
+    font-family: Montserrat, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+}
+
+.btn-div-section8 {
+    margin: 40px 0px 0px;
+    display: flex;
+    justify-content: center;
+}
+
+.btn-div-section8 button {
+    border: none;
+    background: #2076EE;
+    color: white;
+    font-size: 14px;
+    font-weight: 500;
+    border-radius: 50px;
+    font-family: Montserrat, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    padding: 12px 20px;
+    display: flex;
+    gap: 6px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.div-space {
+    margin: 20px 0px;
+    border: 1px solid black;
+    height: 700px;
+}
 
 
 
